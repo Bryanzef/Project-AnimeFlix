@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.element {
+  background-image: url(./assets/Fundo1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*  background-color: rgb(21, 23, 24)*/
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+input {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+  width: 300px;
+}
+#Title {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(255, 0, 0, 1);
+  font-size: 2em;
+}
+
+.card {
+  border: 1px solid black;
+  border-style: none;
+  margin: 10px;
+  display: inline-block;
+  width: 300px;
+  max-width: 300px;
+  height: 200px;
+  overflow: hidden;
+  transition: width 0.5s, height 0.5s;
+}
+.card:hover {
+  cursor: pointer;
+  width: 320px;
+  height: 220px;
+}
+.grid {
+  --bs-columns: 3;
+}
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.9s;
+}
+
+.front {
+  overflow: hidden;
+}
+.card:hover .front {
+  transform: translateY(100%);
+}
+
+.back {
+  background-color: black;
+  color: white;
+  transform: translateY(-100%);
+}
+.card:hover .back {
+  transform: translateY(0%);
+}
+p {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+footer {
+  height: 100%;
+  background-color: rgb(13, 14, 15);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+li {
+  padding-top: 20px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-size: small;
+  color: #ccc;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 177);
+  transition: 0.5s;
+}
