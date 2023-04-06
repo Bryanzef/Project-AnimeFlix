@@ -1,6 +1,6 @@
 <h3 align="center">Site com cards responsivos, de uma pagina fictícia sobre animes!</h3>
 
-- Acesse ele [https://bryanzef.github.io/Project-AnimeFlix/](https://bryanzef.github.io/Project-AnimeFlix/)
+<div align="center"> Acesse ele [https://bryanzef.github.io/Project-AnimeFlix/](https://bryanzef.github.io/Project-AnimeFlix/) </div>
 
 
 
